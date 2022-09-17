@@ -1,6 +1,6 @@
 const Card = ({ name, status, species, image, setImageUp }) => {
     return (
-        <div className="card">
+        <div className="color-square">
             <img src={image} alt="" onClick={() => setImageUp(image)}/>
             <p>{name}</p>
             <p>{status}</p>
